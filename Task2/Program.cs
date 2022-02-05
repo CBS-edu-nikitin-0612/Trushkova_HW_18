@@ -3,7 +3,7 @@ using Task2;
 
 Console.WriteLine("Hello, Teacher!");
 
-Train[] trains = new Train[4];
+Train[] trains = new Train[8];
 
 //Создание массива поездов
 for (int i = 0; i < trains.Length; i++)
