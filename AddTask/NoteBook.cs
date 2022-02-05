@@ -1,16 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace AddTask
+﻿namespace AddTask
 {
     struct NoteBook
     {
-        private string _producer;
-        private int _model;
-        private int _price;
+        private readonly string _producer;
+        private readonly int _model;
+        private readonly int _price;
 
         public NoteBook(string name, int number, int time)
         {

@@ -2,6 +2,7 @@
 {
     internal static class Trains
     {
+        //Проверка содержится ли поезд в массиве поездов
         public static int? HasTrain(int numberTrain, Train[] trains)
         {
             int? hasTrainIndex = null;
@@ -17,6 +18,7 @@
             return hasTrainIndex;
         }
 
+        //Сортировка массива поездов по номеру поезда (метод вставки)
         public static Train[] SortingNumTrain(Train[] trains)
         {
             for (int i = 1; i < trains.Length; i++)

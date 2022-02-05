@@ -29,6 +29,7 @@
             return $"Поезд {_numberTrain} отправляется со станции {_nameStation} в {_time} часов";
         }
 
+        //Создание поезда путем ввода параметров с клавиатуры 
         public static Train MakeTrain(int i)
         {
             int numberTrain = ReadFromConsole($"номер {i + 1}-го поезда");
@@ -44,6 +45,7 @@
             }
         }
 
+        //Ввод параметров с клавиатуры 
         private static int ReadFromConsole(string name)
         {
             int parametr;
