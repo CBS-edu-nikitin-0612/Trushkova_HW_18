@@ -10,7 +10,7 @@ for (int i = 0; i < trains.Length; i++)
     trains[i] = Train.MakeTrain(i);
 }
 
-trains = Train.SortingNumTrain(trains);
+trains = Trains.SortingNumTrain(trains);
 Console.WriteLine("\nЗагруженные в базу поезда:");
 for (int i = 0; i < trains.Length; i++)
 {    
@@ -20,7 +20,7 @@ for (int i = 0; i < trains.Length; i++)
 Console.WriteLine("\nВведите номер поезда для поиска по загруженной базе:");
 int numberTrain = Convert.ToInt32(Console.ReadLine());
 
-int? hasTrainIndex = Train.HasTrain(numberTrain, trains);
+int? hasTrainIndex = Trains.HasTrain(numberTrain, trains);
 
 if (hasTrainIndex.HasValue)
     trains[hasTrainIndex.Value].Show();
