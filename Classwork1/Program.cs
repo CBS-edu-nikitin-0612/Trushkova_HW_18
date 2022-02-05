@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using Classwork1;
 
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Hello, Teacher!");
 
 Student[] students = new Student[]
 {
