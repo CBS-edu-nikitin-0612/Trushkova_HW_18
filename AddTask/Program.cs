@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using AddTask;
+using AddTask;  //без явного указания не работает программа, тк не видит другие классы
 
 Console.WriteLine("Hello, Teacher!");
 

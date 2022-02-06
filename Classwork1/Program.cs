@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using Classwork1;
+using Classwork1; //без явного указания не работает программа, тк не видит другие классы
 
 Console.WriteLine("Hello, Teacher!");
 
@@ -24,7 +24,9 @@ while (true)
 
         if (number > 0)
         {
+            //Выбор студентов по номеру группы
             Student[] studentsGroup = Students.FindByNumberGroup(number, students);
+            //Вывод информации о выбранной группе студентов
             Students.ShowGroup(studentsGroup);            
         }
         else

@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using Task3;
+using Task3;  //без явного указания не работает программа, тк не видит другие классы
 
 Console.WriteLine("Hello, Teacher!");
 
